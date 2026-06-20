@@ -7,7 +7,7 @@ window.SITE_CONTENT = {
   profile: {
     name: "彭思琼",
     identity: "招聘HR",
-    headline: "有幸参与到改变世界的进程中。当前负责阿里星顶尖人才校招项目，关注 AI Infra、芯片、LLM、多模态、具身智能方向。如有秋招或实习意向，欢迎随时联系我~",
+    headline: "有幸参与到改变世界的进程中。当前负责阿里星顶尖人才计划校招项目，聚焦 AI Infra、芯片、LLM、多模态、具身智能等方向。如有秋招或实习意向，欢迎随时联系我~",
     company: "阿里巴巴集团",
     role: "阿里星项目校招HR",
     experience: "2年",
