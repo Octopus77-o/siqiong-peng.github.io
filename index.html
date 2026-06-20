@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>彭思琼 - 招聘HR</title>
+  <meta name="description" content="彭思琼的个人主页" />
+  <link rel="icon" href="assets/avatar.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="页面导航">
+      <a href="#profile">基本信息</a>
+      <a href="#news">最新消息</a>
+      <a href="#work">工作经历</a>
+      <a href="#articles">经验沉淀</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="profile" class="hero glass-card">
+      <div class="hero-copy">
+        <p class="eyebrow" id="identity"></p>
+        <h1 id="name"></h1>
+        <p class="headline" id="headline"></p>
+        <div class="basic-contact">
+          <span class="section-kicker">联系方式</span>
+          <div class="contact-actions">
+            <a id="emailLink" class="button">邮箱</a>
+            <button class="button button-primary" id="wechatButton" type="button">微信</button>
+            <a id="githubLink" class="button" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a id="xiaohongshuLink" class="button" target="_blank" rel="noopener noreferrer">小红书</a>
+          </div>
+        </div>
+      </div>
+      <div class="avatar-wrap">
+        <img class="avatar" src="assets/avatar.png" alt="彭思琼头像" />
+      </div>
+    </section>
+
+    <section id="news" class="section glass-card">
+      <div class="section-heading">
+        <span class="section-kicker">News</span>
+        <h2>最新消息</h2>
+      </div>
+      <div class="timeline" id="newsList"></div>
+    </section>
+
+    <section id="work" class="section glass-card">
+      <div class="section-heading">
+        <span class="section-kicker">Work</span>
+        <h2>工作经历</h2>
+      </div>
+      <div class="work-card">
+        <div class="work-main">
+          <h3 id="workCompany"></h3>
+          <p id="workRole"></p>
+          <p id="workTime"></p>
+        </div>
+        <div class="work-list" id="workList"></div>
+      </div>
+    </section>
+
+    <section id="articles" class="section glass-card">
+      <div class="section-heading">
+        <span class="section-kicker">Notes</span>
+        <h2>经验沉淀</h2>
+      </div>
+      <div class="article-list" id="articleList"></div>
+    </section>
+
+
+  </main>
+
+  <footer class="site-footer">
+    更新时间：<span id="updatedAt"></span>
+  </footer>
+
+  <div class="modal" id="wechatModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="微信二维码">
+    <div class="modal-backdrop" data-close="modal"></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" data-close="modal" aria-label="关闭微信二维码">×</button>
+      <img id="wechatImage" src="assets/wechat.jpg" alt="微信二维码" />
+    </div>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
