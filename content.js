@@ -2,7 +2,7 @@
 // 后续修改主页文字时，优先改这个文件；保存并提交到 GitHub 后，网页会自动更新。
 
 window.SITE_CONTENT = {
-  updatedAt: "2026年6月20日",
+  updatedAt: "2026年6月24日",
 
   profile: {
     name: "彭思琼",
@@ -16,8 +16,12 @@ window.SITE_CONTENT = {
 
   news: [
     {
-      date: "6月底",
-      text: "阿里星2027届应届生招聘即将启动！"
+      date: "2026年8月",
+      text: "常规秋招即将启动！"
+    },
+    {
+      date: "2026年6月23日",
+      text: "阿里星2027届应届生招聘正式启动！"
     },
     {
       date: "2026年6月20日",
